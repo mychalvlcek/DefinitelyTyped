@@ -57,7 +57,7 @@ declare namespace Waterline {
     // Data types https://github.com/balderdashy/waterline-docs/blob/master/models/data-types-attributes.md#data-types
     export type AttributeType = "string" | "text" | "integer" | "float" | "date" | "time"
         | "datetime" | "boolean" | "binary" | "array" | "json";
-    export type Attribute = string | StringAttribute | EmailAttribute |
+    export type Attribute = string | StringAttribute | EmailAttribute | TextAttribute |
         IntegerAttribute | FloatAttribute |
         DateAttribute | TimeAttribute | DatetimeAttribute |
         BooleanAttribute | BinaryAttribute | ArrayAttribute | JsonAttribute |
